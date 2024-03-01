@@ -1,0 +1,39 @@
+.containerG {
+    height: 269px;
+    width: 45%;
+    border: 10px solid rgb(0, 0, 0);
+    padding: 1em;
+    display: grid;
+    grid-template-areas: "one one one two three"
+    "one one one two three"
+    "four four four two three"
+    "four four four two five"
+    "six six six six six";
+    gap: 1em;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid rgb(71, 185, 185);
+}
+.oneG {
+    grid-area: one;
+}
+.twoG {
+    grid-area: two;
+}
+.threeG {
+    grid-area: three;
+}
+.fourG {
+  grid-area: four;
+}
+.fiveG {
+  grid-area: five;
+}
+.sixG {
+  grid-area: six;
+}
