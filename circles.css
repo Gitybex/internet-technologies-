@@ -1,0 +1,46 @@
+.section { position: relative; }
+.circle { border: 2px solid;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.zero {
+    width: 100px;
+    height: 100px;
+}
+.one {
+    width: 100px;
+    height: 100px;
+}
+.two {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 150px;
+    left: 50%;
+}
+.inner1 {
+    width: 90px;
+    height: 90px;
+}
+.inner2 {
+    width: 80px;
+    height: 80px;
+}
+.three {
+    width: 100px;
+    height: 100px;
+}
+.four {
+    width: 100px;
+    height: 100px;
+}
+.stickyDiv {
+    position: sticky;
+    top: 0px;
+    left: 0px;
+    background: rgb(0, 255, 76);
+    padding: 10px;
+    margin: 10px;
+}
