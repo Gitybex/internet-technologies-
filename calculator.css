@@ -1,0 +1,111 @@
+* {
+    box-sizing: border-box;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5em;
+    width: 300px;
+    align-items: center;
+    border: 1px solid;
+    padding: 0.2em;
+}
+#io {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em 0.2em;
+    border: 1px solid;
+    min-height: 1.5em;
+    width: 100%;
+}
+#expression {
+    color: gray;
+    display: flex;
+    justify-content: end;
+    padding: 0.5em 0.2em;
+    height: 1.5em;
+}
+#output {
+    display: flex;
+    justify-content: end;
+    padding: 0.5em 0.2em;
+    height: 1.5em;
+}
+#input {
+    width: 100%;
+    display: grid;
+    padding: 0.2em;
+    border: 1px solid;
+}
+#basic {
+    display: grid;
+    gap: 0.2em;
+    grid-template-areas:
+        'C pm per div'
+        'seven eight nine mul'
+        'four five six min'
+        'one two three plus'
+        'zero zero dot eq';
+}
+.C {
+    grid-area: C;
+}
+.pm {
+    grid-area: pm;
+}
+.per {
+    grid-area: per;
+}
+.div {
+    grid-area: div;
+}
+.mul {
+    grid-area: mul;
+}
+.min {
+    grid-area: min;
+}
+.plus {
+    grid-area: plus;
+}
+.eq {
+    grid-area: eq;
+}
+.zero {
+    grid-area: zero;
+}
+.one {
+    grid-area: one;
+}
+.two {
+    grid-area: two;
+}
+.three {
+    grid-area: three;
+}
+.four {
+    grid-area: four;
+}
+.five {
+    grid-area: five;
+}
+.six {
+    grid-area: six;
+}
+.seven {
+    grid-area: seven;
+}
+.eight {
+    grid-area: eight;
+}
+.nine {
+    grid-area: nine;
+}
+
+button {
+    font-size: 1.2em;
+}
+.operation {
+    background-color: rgb(245, 162, 7);
+    border-color: rgb(245, 162, 7);
+}
