@@ -1,0 +1,29 @@
+.containerG {
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    gap: 1em;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+    padding: 0.5em;
+}
+.letter {
+    letter-spacing: 0.5em;
+}
+.word {
+    word-spacing: 1em;
+}
+.line {
+    line-height: 1em;
+}
+.white {
+    white-space: nowrap;
+}   
