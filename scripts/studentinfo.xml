@@ -1,0 +1,16 @@
+
+<students>
+    <student>
+        <enrollment_number>001</enrollment_number>
+        <name>Pat Cummins</name>
+        <email>pattyburger@example.com</email>
+        <mobile_number>1234567890</mobile_number>
+    </student>
+    <student>
+        <enrollment_number>002</enrollment_number>
+        <name>Steve Smith</name>
+        <email>Smudgebro@example.com</email>
+        <mobile_number>9876543210</mobile_number>
+    </student>
+    <!-- Add more student entries as needed -->
+</students> 

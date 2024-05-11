@@ -1,0 +1,8 @@
+<!DOCTYPE note
+[
+<!ELEMENT student (name,usn,year,semester)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT usn (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT semester (#PCDATA)>
+]>
