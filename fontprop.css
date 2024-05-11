@@ -1,0 +1,36 @@
+.container {
+    height: 200px;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    gap: 1em;
+    flex-wrap: wrap;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+    padding: 0.5em;
+}
+.family {
+    font-family: Arial Helvetica Georgia sans-serif;
+}
+.size {
+    font-size: 2em;
+}
+.variant {
+    font-variant: small-caps;
+}
+.style {
+    font-style: italic;
+}
+.weight {
+    font-weight: 600;
+}
