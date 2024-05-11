@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="stylesheet.xsl"?>
+<document>
+    <note>
+      <to>Tove</to>
+      <from>Jani</from>
+      <heading>Reminder</heading>
+      <body>Don't forget me this weekend!</body>
+    </note>
+    <students>
+      <student>
+        <enrollment_number>001</enrollment_number>
+        <name>Pat Cummins</name>
+        <email>pattyburger@example.com</email>
+        <mobile_number>**REDACTED**</mobile_number> </student>
+      <student>
+        <enrollment_number>002</enrollment_number>
+        <name>Steve Smith</name>
+        <email>Smudgebro@example.com</email>
+        <mobile_number>**REDACTED**</mobile_number>
+      </student>
+      </students>
+  </document>E
