@@ -1,0 +1,36 @@
+.containerG {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    gap: 1.5em;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+    padding: 0.5em;
+    width: 10%;
+    height: 50px;
+}
+.offset {
+    box-shadow: 3px 2px gray;
+    text-shadow: 3px 2px gray;
+}
+.blur {
+    box-shadow: 3px 2px 2px gray;
+    text-shadow: 3px 2px 2px gray;
+}
+.blurSpread {
+    box-shadow: 3px 2px 2px 1px gray;
+    text-shadow: 3px 2px 2px gray;
+}
+.multiple {
+    box-shadow: 5px 5px 3px gray, -5px -5px 3px red;
+    text-shadow: 5px 5px 3px gray, -5px -5px 3px red;
+}
