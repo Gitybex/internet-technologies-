@@ -1,0 +1,28 @@
+.containerG {
+    box-sizing: border-box;
+    height: auto;
+    width: 100%;
+    border: 1px solid gray;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+.centerFlex {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.cell {
+    border: 1px solid teal;
+    padding: 0.5em;
+}
+.indent {
+    text-indent: 5em;
+}
+.align {
+    text-align: right;
+}
+.float {
+    float: right;
+}   
